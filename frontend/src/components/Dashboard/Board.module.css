@@ -1,0 +1,13 @@
+.boardContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 4vh;
+    gap:4rem;
+ 
+}
+ 
+
+.chartContainer{
+    height: 100%;
+    width: 100%;
+}

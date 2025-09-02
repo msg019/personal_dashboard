@@ -1,0 +1,19 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 6vh;
+
+    h1{
+        font-size: 4rem;
+        text-shadow: 2px 2px 2px white;
+    
+    }
+
+    img{
+        border-radius: 12px;
+        margin-top: 4vh;
+    }
+}

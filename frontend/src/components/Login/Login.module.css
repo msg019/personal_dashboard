@@ -1,0 +1,41 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5vh;
+    gap:2vh;
+
+    font-size: 1.5rem;
+}
+
+.groupContainer{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 0.7fr);
+    text-align: right;
+    gap:2vw;
+}
+
+label{
+    text-align: left;
+}
+
+input{
+    border-radius: 12px;
+    font-size: 1.2rem;
+    padding-left: 0.5vw;
+}
+
+button{
+    margin-top: 2vh;
+    font-size: 1.5rem;
+    border-radius: 12px;
+
+    &:hover{
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+}

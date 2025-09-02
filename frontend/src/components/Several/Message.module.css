@@ -1,0 +1,15 @@
+.msgContainer{
+    display: flex;
+    margin-top: 4vh;
+    font-size: 1.4rem;
+}
+
+.info{
+    color: green;
+    font-size: 1.5rem;
+}
+
+.error{
+    color:red;
+    font-size: 1,5rem;
+}
